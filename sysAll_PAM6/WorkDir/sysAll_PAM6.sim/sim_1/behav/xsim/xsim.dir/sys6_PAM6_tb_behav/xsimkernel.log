@@ -1,7 +1,0 @@
-Running: xsim.dir/sys6_PAM6_tb_behav/xsimk.exe -simmode gui -wdb sys6_PAM6_tb_behav.wdb -simrunnum 0 -socket 62821
-Design successfully loaded
-Design Loading Memory Usage: 9552 KB (Peak: 9552 KB)
-Design Loading CPU Usage: 62 ms
-Simulation completed
-Simulation Memory Usage: 18444 KB (Peak: 18444 KB)
-Simulation CPU Usage: 1952 ms
