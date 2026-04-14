@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sys6_PAM6_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sys6_PAM6_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,699.420 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,914.821 ns"></ZoomEndTime>
+      <Cursor1Time time="2,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/sys6_PAM6_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys6_PAM6_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys6_PAM6_tb/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys6_PAM6_tb/probability_idx" type="array">
+      <obj_property name="ElementShortName">probability_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">probability_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys6_PAM6_tb/probability_in" type="array">
+      <obj_property name="ElementShortName">probability_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">probability_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">PRBS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/prbs/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/prbs/data" type="logic">
+         <obj_property name="ElementShortName">data</obj_property>
+         <obj_property name="ObjectShortName">data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/prbs/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group39" type="group">
+      <obj_property name="label">GRAY_ENC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/gray_enc/symbol" type="array">
+         <obj_property name="ElementShortName">symbol[2:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/gray_enc/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group104" type="group">
+      <obj_property name="label">ISI_CHANNEL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/channel/signal_out" type="array">
+         <obj_property name="ElementShortName">signal_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_out[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/channel/signal_out_valid" type="logic">
+         <obj_property name="ElementShortName">signal_out_valid</obj_property>
+         <obj_property name="ObjectShortName">signal_out_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group189" type="group">
+      <obj_property name="label">NOISE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/r_noise/noise_out" type="array">
+         <obj_property name="ElementShortName">noise_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">noise_out[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/r_noise/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/na/signal_out" type="array">
+         <obj_property name="ElementShortName">signal_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_out[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/na/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group92" type="group">
+      <obj_property name="label">MLSE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/mlse/symbol_out" type="array">
+         <obj_property name="ElementShortName">symbol_out[2:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_out[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/mlse/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">GRAY_DEC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/gray_dec/data" type="logic">
+         <obj_property name="ElementShortName">data</obj_property>
+         <obj_property name="ObjectShortName">data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/gray_dec/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">FEC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys6_PAM6_tb/dut/fec/sr_in" type="logic">
+         <obj_property name="ElementShortName">sr_in</obj_property>
+         <obj_property name="ObjectShortName">sr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/total_bits" type="array">
+         <obj_property name="ElementShortName">total_bits[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bits[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/total_bit_errors_pre" type="array">
+         <obj_property name="ElementShortName">total_bit_errors_pre[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bit_errors_pre[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/total_bit_errors_post" type="array">
+         <obj_property name="ElementShortName">total_bit_errors_post[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bit_errors_post[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/total_frames" type="array">
+         <obj_property name="ElementShortName">total_frames[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_frames[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys6_PAM6_tb/total_frame_errors" type="array">
+         <obj_property name="ElementShortName">total_frame_errors[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_frame_errors[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

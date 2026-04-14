@@ -1,0 +1,11 @@
+Sys6_Pam4_2Core
+{
+    "FpgaImageId": "afi-0f0946631a934304f",
+    "FpgaImageGlobalId": "agfi-0688e763b7fb3e61e"
+}
+
+Sys5_Pam4_2Core
+{
+    "FpgaImageId": "afi-088b2bf689c7f1349",
+    "FpgaImageGlobalId": "agfi-0c910eb1d54d5026f"
+}

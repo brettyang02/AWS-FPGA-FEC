@@ -1,0 +1,60 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/convolutional_interleaver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module convolutional_deinterleaver
+INFO: [VRFC 10-311] analyzing module convolutional_interleaver
+INFO: [VRFC 10-311] analyzing module ci_mux
+INFO: [VRFC 10-311] analyzing module onehot_enc
+INFO: [VRFC 10-311] analyzing module ci_demux
+INFO: [VRFC 10-311] analyzing module delay_line
+WARNING: [VRFC 10-3467] initial value of parameter 'DELAY' is omitted [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/convolutional_interleaver.sv:300]
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/convolutional_interleaver.sv:306]
+INFO: [VRFC 10-311] analyzing module form_ci_symbol
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/convolutional_interleaver.sv:348]
+INFO: [VRFC 10-311] analyzing module ci_symbol_to_bits
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/convolutional_interleaver.sv:390]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/gray_codec_PAM6.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gray_encode_PAM6
+INFO: [VRFC 10-311] analyzing module gray_decode_PAM6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/hamming_128_120.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enc
+INFO: [VRFC 10-311] analyzing module hamming_enc
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/hamming_128_120.sv:24]
+INFO: [VRFC 10-311] analyzing module dec
+INFO: [VRFC 10-311] analyzing module hamming_dec
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/hamming_128_120.sv:157]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/hard_slicer_pam6.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hard_slicer_PAM6
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/hard_slicer_pam6.sv:13]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/noise.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module random_noise
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/noise.sv:15]
+INFO: [VRFC 10-311] analyzing module noise_adder
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/noise.sv:82]
+INFO: [VRFC 10-311] analyzing module urng_64
+INFO: [VRFC 10-311] analyzing module random_noise_skip
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/noise.sv:184]
+INFO: [VRFC 10-311] analyzing module FIR_filter
+WARNING: [VRFC 10-8426] non-net output port 'signal_out_valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/noise.sv:266]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/pam_6_encode.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pam_6_encode
+WARNING: [VRFC 10-8426] non-net output port 'signal_out_valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/pam_6_encode.sv:11]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prbs63
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:10]
+INFO: [VRFC 10-311] analyzing module prbs63_IL_FEC_checker
+WARNING: [VRFC 10-8426] non-net output port 'total_bits' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:58]
+WARNING: [VRFC 10-8426] non-net output port 'total_bit_errors_pre' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:59]
+WARNING: [VRFC 10-8426] non-net output port 'total_bit_errors_post' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:60]
+WARNING: [VRFC 10-8426] non-net output port 'total_frames' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:61]
+WARNING: [VRFC 10-8426] non-net output port 'total_frame_errors' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:62]
+INFO: [VRFC 10-311] analyzing module prbs63_120_8
+WARNING: [VRFC 10-8426] non-net output port 'valid' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:196]
+INFO: [VRFC 10-311] analyzing module prbs63_ci_IL_FEC_checker
+WARNING: [VRFC 10-8426] non-net output port 'total_bits' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:243]
+WARNING: [VRFC 10-8426] non-net output port 'total_bit_errors_pre' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:244]
+WARNING: [VRFC 10-8426] non-net output port 'total_bit_errors_post' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:245]
+WARNING: [VRFC 10-8426] non-net output port 'total_frames' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:246]
+WARNING: [VRFC 10-8426] non-net output port 'total_frame_errors' cannot be initialized at declaration in SystemVerilog mode [D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/common_PAM6/prbs.sv:247]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/RTL/sys5_PAM6/sys5_PAM6_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sys5_PAM6_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Capstone/capstone_git_repo/sysAll_PAM6/Sim/sys5_PAM6_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sys5_PAM6_tb

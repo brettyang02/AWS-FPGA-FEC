@@ -1,0 +1,4 @@
+s        stat_clk sh_ddr_stat_bus_rd       4450 -2147483648 -2147483648       4450
+s        stat_clk sh_ddr_stat_bus_wr       4450 -2147483648 -2147483648       4450
+s        stat_clk      stat_rst_n       4450 -2147483648 -2147483648       4450
+s             clk           rst_n       4450 -2147483648 -2147483648       4450

@@ -1,0 +1,37 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sys5_PAM6_tb_behav xil_defaultlib.sys5_PAM6_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.prbs63_120_8(SEED=64'b0100110010...
+Compiling module xil_defaultlib.form_ci_symbol(W=4)
+Compiling module xil_defaultlib.ci_demux(W=4,P=3)
+Compiling module xil_defaultlib.delay_line(W=4,DELAY=384)
+Compiling module xil_defaultlib.delay_line(W=4,DELAY=192)
+Compiling module xil_defaultlib.onehot_enc(WIDTH=3)
+Compiling module xil_defaultlib.ci_mux(W=4,P=3)
+Compiling module xil_defaultlib.ci_symbol_to_bits(W=4)
+Compiling module xil_defaultlib.convolutional_interleaver(W=4,D=...
+Compiling module xil_defaultlib.enc
+Compiling module xil_defaultlib.hamming_enc
+Compiling module xil_defaultlib.gray_encode_PAM6
+Compiling module xil_defaultlib.pam_6_encode(SYMBOL_SEPARATION=2...
+Compiling module xil_defaultlib.urng_64(SEED0=64'b01001100010100...
+Compiling module xil_defaultlib.random_noise_skip(RNG_SEED0=64'b...
+Compiling module xil_defaultlib.FIR_filter(SIGNAL_RESOLUTION=8)
+Compiling module xil_defaultlib.noise_adder
+Compiling module xil_defaultlib.hard_slicer_PAM6(SYMBOL_SEPARATI...
+Compiling module xil_defaultlib.gray_decode_PAM6
+Compiling module xil_defaultlib.dec
+Compiling module xil_defaultlib.hamming_dec
+Compiling module xil_defaultlib.convolutional_deinterleaver(W=4,...
+Compiling module xil_defaultlib.prbs63_ci_IL_FEC_checker(SEED=64...
+Compiling module xil_defaultlib.sys5_PAM6_top
+Compiling module xil_defaultlib.sys5_PAM6_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sys5_PAM6_tb_behav

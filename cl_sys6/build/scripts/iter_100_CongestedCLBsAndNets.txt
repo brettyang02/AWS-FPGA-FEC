@@ -1,0 +1,8 @@
+List of CLB Tiles
+CLEL_L_X108Y276
+CLEL_R_X108Y276
+
+List of Congested Nets
+WRAPPER/CL/core_inst/genblk1[1].core/mlse/survivor_path_metrics_reg[3][7]_i_21_n_11
+WRAPPER/CL/core_inst/genblk1[1].core/mlse/survivor_path_metrics_reg[3][7]_i_40_n_11
+

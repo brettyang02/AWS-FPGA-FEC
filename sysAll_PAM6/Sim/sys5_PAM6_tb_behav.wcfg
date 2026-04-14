@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sys5_PAM6_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sys5_PAM6_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="95,209.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="97,375.001 ns"></ZoomEndTime>
+      <Cursor1Time time="95,969.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="280"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/sys5_PAM6_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group74" type="group">
+      <obj_property name="label">PRBS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/prbs/data" type="logic">
+         <obj_property name="ElementShortName">data</obj_property>
+         <obj_property name="ObjectShortName">data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/prbs/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group77" type="group">
+      <obj_property name="label">CI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/ci/data_out" type="logic">
+         <obj_property name="ElementShortName">data_out</obj_property>
+         <obj_property name="ObjectShortName">data_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/ci/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group80" type="group">
+      <obj_property name="label">HAMMINGENC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/encoder/data_out" type="logic">
+         <obj_property name="ElementShortName">data_out</obj_property>
+         <obj_property name="ObjectShortName">data_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/encoder/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group83" type="group">
+      <obj_property name="label">GRAYENC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/ge/symbol" type="array">
+         <obj_property name="ElementShortName">symbol[2:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/ge/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">ENC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/pe/signal_out" type="array">
+         <obj_property name="ElementShortName">signal_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/pe/signal_out_valid" type="logic">
+         <obj_property name="ElementShortName">signal_out_valid</obj_property>
+         <obj_property name="ObjectShortName">signal_out_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group89" type="group">
+      <obj_property name="label">NA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/na/noise_in" type="array">
+         <obj_property name="ElementShortName">noise_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">noise_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/na/noise_in_valid" type="logic">
+         <obj_property name="ElementShortName">noise_in_valid</obj_property>
+         <obj_property name="ObjectShortName">noise_in_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/na/signal_out" type="array">
+         <obj_property name="ElementShortName">signal_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/na/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">SLICER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/slicer/symbol_out" type="array">
+         <obj_property name="ElementShortName">symbol_out[2:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_out[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/slicer/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group97" type="group">
+      <obj_property name="label">GRAYDEC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/gd/data" type="logic">
+         <obj_property name="ElementShortName">data</obj_property>
+         <obj_property name="ObjectShortName">data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/gd/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group100" type="group">
+      <obj_property name="label">HAMMINGDEC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/decoder/data_out" type="logic">
+         <obj_property name="ElementShortName">data_out</obj_property>
+         <obj_property name="ObjectShortName">data_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/decoder/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group103" type="group">
+      <obj_property name="label">CDI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/cdi/data_out" type="logic">
+         <obj_property name="ElementShortName">data_out</obj_property>
+         <obj_property name="ObjectShortName">data_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/cdi/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group106" type="group">
+      <obj_property name="label">FEC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/sr_in" type="logic">
+         <obj_property name="ElementShortName">sr_in</obj_property>
+         <obj_property name="ObjectShortName">sr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/total_bits" type="array">
+         <obj_property name="ElementShortName">total_bits[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bits[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/total_bit_errors_pre" type="array">
+         <obj_property name="ElementShortName">total_bit_errors_pre[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bit_errors_pre[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/total_bit_errors_post" type="array">
+         <obj_property name="ElementShortName">total_bit_errors_post[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_bit_errors_post[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/total_frames" type="array">
+         <obj_property name="ElementShortName">total_frames[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_frames[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys5_PAM6_tb/dut/fec/total_frame_errors" type="array">
+         <obj_property name="ElementShortName">total_frame_errors[63:0]</obj_property>
+         <obj_property name="ObjectShortName">total_frame_errors[63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

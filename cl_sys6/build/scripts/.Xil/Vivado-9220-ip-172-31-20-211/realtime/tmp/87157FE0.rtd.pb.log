@@ -1,0 +1,7 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (fec/\cur_FEC_codeword_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (fec/\cur_FEC_codeword_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (fec/\cur_FEC_codeword_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (fec/\cur_FEC_codeword_reg[28] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
