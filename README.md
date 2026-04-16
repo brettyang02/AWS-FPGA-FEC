@@ -18,4 +18,5 @@ The design is based on the PAM-4 200G Ethernet design by Mr. Richard Barrie, whi
 - `runtime/`: contains the code for the runtime environment on AWS, including the GUI noise files. Copy this folder to the F2 instance to run the design (see the tutorial videos for details).
 - `cl_pam4_ref/`: contains the RTL code for the PAM4 reference design, in AWS.
 - `sysAll_PAM6/`: Vivado project for the PAM6 designs, with testbenches included.
+- `Python`: Python scripts for PAM6 system 6, with noise files and RTL outputs included.
 
