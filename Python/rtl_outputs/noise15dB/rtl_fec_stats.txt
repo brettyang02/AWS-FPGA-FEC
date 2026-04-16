@@ -1,0 +1,7 @@
+total_bits: 999889
+total_bit_errors_pre: 46055
+total_bit_errors_post: 45879
+total_frames: 183
+total_frame_errors: 183
+BER_pre: 4.606011e-02
+BER_post: 4.588409e-02
